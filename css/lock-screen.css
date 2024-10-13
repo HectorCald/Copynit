@@ -10,7 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
 }
 
 .lock-screen {
@@ -18,20 +20,19 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.lock-screen h2 {
     margin-bottom: 20px;
 }
 
-.input-container {
+.lock-screen .input-container {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.code-input {
+.lock-screen .code-input {
     width: 40px;
     height: 40px;
     margin: 0 5px;
@@ -41,7 +42,7 @@ h2 {
     border-radius: 5px;
 }
 
-button {
+.lock-screen button {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -51,16 +52,16 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+.lock-screen button:hover {
     background-color: #45a049;
 }
 
-.error {
+.lock-screen .error {
     color: red;
     margin-top: 10px;
 }
 
-.main-content {
+.lock-screen .main-content {
     text-align: center;
     background-color: white;
     padding: 20px;
