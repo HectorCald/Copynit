@@ -9,7 +9,7 @@ function validateCode() {
 
     if (code === "1234") { // Código correcto
         document.getElementById("lockScreen").style.display = "none";
-        document.getElementById("mainContent").style.display = "block";
+        document.getElementById("mainContent").style.display = "flex";
     } else {
         document.getElementById("errorMessage").textContent = "Código incorrecto. Inténtalo de nuevo.";
     }
