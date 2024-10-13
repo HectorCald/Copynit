@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla de Bloqueo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="lock-screen" id="lockScreen">
+        <h2>Ingresa tu código de acceso</h2>
+        <div class="input-container">
+            <input type="password" maxlength="1" id="digit1" class="code-input">
+            <input type="password" maxlength="1" id="digit2" class="code-input">
+            <input type="password" maxlength="1" id="digit3" class="code-input">
+            <input type="password" maxlength="1" id="digit4" class="code-input">
+        </div>
+        <button onclick="validateCode()">Validar</button>
+        <p id="errorMessage" class="error"></p>
+    </div>
+
+    <div class="main-content" id="mainContent" style="display:none;">
+        <h1>¡Bienvenido!</h1>
+        <p>Has desbloqueado el contenido.</p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
