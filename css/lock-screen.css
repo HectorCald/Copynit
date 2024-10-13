@@ -23,6 +23,7 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .lock-screen h2 {
