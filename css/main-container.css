@@ -9,10 +9,7 @@
     box-sizing: border-box;
     padding: 20px;
 }
-
-
-
-
+/********************ESTILOS DE LAS TABS DEL NAV*/
 .container-nav .tabs {
   display: flex;
   position: relative;
@@ -76,17 +73,7 @@
   border-radius: 99px;
   transition: 0.25s ease-out;
 }
-
-
-
-
-
-
-
-
-
-
-
+/********************ESTILOS DE LA CARD DE LAS COPIAS*/
 .card {
     padding: 1rem;
     background-color: #fff;
@@ -164,15 +151,7 @@
     height: 100%;
     border-radius: 0.25rem;
   }
-
-
-
-
-
-
-
-
-
+/********************ESTILOS DE LA INPUT DE INGRESO*/
   .texto .inputGroup {
   font-family: 'Segoe UI', sans-serif;
   margin: 1em 0 1em 0;
@@ -212,7 +191,7 @@
 .texto .inputGroup :is(input:focus, input:valid) {
   border-color: rgb(150, 150, 200);
 }
-
+/********************ESTILOS DEL BOTON DE ENVIO*/
 .texto button {
     outline: 0;
     border: 0;
@@ -267,4 +246,16 @@
    
    .texto button:active {
     transform: scale(0.95);
+   }
+
+   .texto .list{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:15px ;
+    color: gray;
    }
